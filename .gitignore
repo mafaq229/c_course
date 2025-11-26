@@ -1,5 +1,8 @@
 *.DS_Store
 
+# build artifacts
+main
+
 ## Standard C ignore rules
 # Prerequisites
 *.d
