@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include <string.h>
 
-int main(int argc, char **argv) {
-    printf("Hello World\n");
-    return 0;
+int main() {
+    int x = strcmp("Hello", "World");
+    printf("%d\n", x);
 }
